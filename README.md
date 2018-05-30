@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chousemath/trive2.svg?branch=master)](https://travis-ci.org/chousemath/trive2)
 
-> The documentation website can be found [here](https://trive2-library-docs.firebaseapp.com/).
+> The github repository can be found [here](https://github.com/chousemath/trive2).The documentation website can be found [here](https://trive2-library-docs.firebaseapp.com/).
 
 # Build
 ```bash
