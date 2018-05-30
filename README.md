@@ -1,18 +1,32 @@
-# Basic Reason Template
+### The Trive ReasonML Library
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+> The documentation website can be found [here](https://trive2-library-docs.firebaseapp.com/).
 
 # Build
-```
-npm run build
+```bash
+$ npm run build
 ```
 
 # Build + Watch
 
-```
-npm run start
+```bash
+$ npm run start
 ```
 
+# Compile
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+```bash
+$ npm run-script compile
+```
+
+# Test
+
+```bash
+$ npm test
+```
+
+# Generate Docs
+
+```bash
+$ npm run-script docs
+```

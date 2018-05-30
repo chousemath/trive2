@@ -1,17 +1,27 @@
 {
   "name": "trivefunc2",
   "version": "0.1.0",
+  "main": "index.js",
   "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
-    "clean": "bsb -clean-world"
+    "clean": "bsb -clean-world",
+    "compile": "./compile.sh",
+    "compress": "uglifyjs index.js --compress -o index.js",
+    "docs": "jsdoc --readme /Users/jo/Desktop/libraries/trivefunc2/README.md /Users/jo/Desktop/libraries/trivefunc2/index.js"
   },
   "keywords": [
     "BuckleScript"
   ],
-  "author": "",
-  "license": "MIT",
+  "author": "Joseph Sungpil Choi",
+  "license": "ISC",
   "devDependencies": {
-    "bs-platform": "^3.1.4"
+    "assert": "^1.4.1",
+    "bs-platform": "^3.1.4",
+    "mocha": "^5.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3",
+    "uglify-js": "^3.3.28"
   }
 }
