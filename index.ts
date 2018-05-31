@@ -10,3 +10,8 @@ import * as main from './src/Main.bs';
  * @param {string} unit - Desired unit of the return value ("K" - kilometers, "N" - nautical miles, or miles)
  */
 export const calculateDistance = main.calculateDistance;
+
+export const greaterBid = main.greaterBid;
+export const lesserBid = main.lesserBid;
+export const maxBid = main.maxBid;
+export const minBid = main.minBid;

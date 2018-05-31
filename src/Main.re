@@ -17,3 +17,9 @@ let calculateDistance = (latitude1: float, longitude1: float, latitude2: float, 
     distance2 *. multiplier;
 };
 
+/* const maxBid: Bid = allBids.reduce((max, value) => max.amount > value.amount ? max : value, { dealer: '', amount: -1, updatedAt: 0 }); */
+let greaterBid = (b1, b2) => (b1##amount > b2##amount) ? b1 : b2;
+let lesserBid = (b1, b2) => (b1##amount < b2##amount) ? b1 : b2;
+let maxBid = (bids) => Array.fold_left(greaterBid, bids[0], bids);
+let minBid = (bids) => Array.fold_left(lesserBid, bids[0], bids);
+
